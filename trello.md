@@ -56,29 +56,29 @@ Select the necessary labels that apply to the card you're creating. These may va
 
 | Label | Color | Description |
 |-|-|-|
-| Ready For Dev | <span style='color:green'>Green</span> | The card is ready to be worked on with nothing blocking progress. |
-| Not Ready For Dev | <span style='color:gold'>Yellow</span> | There is currently something blocking progress on the card. |
-| Help Wanted | <span style='color:orange'>Orange</span> | Members of the card need help to make progress. |
-| Overdue | <span style='color:red'>Red</span> | This card has not been completed by the original set due date. |
-| Question | <span style='color:purple'>Purple</span> | Members of the card have a question concerning the requirements. |
-| Enhancement | <span style='color:blue'>Blue</span> | This card is an enhancement to Ultrasound. |
-| Epic | <span style='color:skyblue'>Light Blue</span> | This is an overarching card containing smaller cards that are related to each other within it. |
-| Won't Do | Black | Members of the card won't work on this. |
+| Ready For Dev | ![#64bc55](https://placehold.it/45/64bc55/000000?text=+) | The card is ready to be worked on with nothing blocking progress. |
+| Not Ready For Dev | ![#F1D52F](https://placehold.it/45/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
+| Help Wanted | ![#FDAA54](https://placehold.it/45/FDAA54/000000?text=+) | Members of the card need help to make progress. |
+| Overdue | ![#E95B4B](https://placehold.it/45/E95B4B/000000?text=+) | This card has not been completed by the original set due date. |
+| Question | ![#C27ADE](https://placehold.it/45/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
+| Enhancement | ![#117ABD](https://placehold.it/45/117ABD/000000?text=+) | This card is an enhancement to Ultrasound. |
+| Epic | ![#20C2DE](https://placehold.it/45/20C2DE/000000?text=+) | This is an overarching card containing smaller cards that are related to each other within it. |
+| Won't Do | ![#4D4D4D](https://placehold.it/45/4D4D4D/000000?text=+) | Members of the card won't work on this. |
 
 ###### Business Dev
 
 | Label | Color | Description |
 |-|-|-|
-| Closed | <span style='color:green'>Green</span> | The goal of the card has been completed. |
-| Open | <span style='color:orange'>Orange</span> | The card is open and still in progress. |
-| Immediate | <span style='color:red'>Red</span> | The card requires immediate attention. |
+| Closed | ![#64bc55](https://placehold.it/45/64bc55/000000?text=+) | The goal of the card has been completed. |
+| Open | ![#FDAA54](https://placehold.it/45/FDAA54/000000?text=+) | The card is open and still in progress. |
+| Immediate | ![#E95B4B](https://placehold.it/45/E95B4B/000000?text=+) | The card requires immediate attention. |
 
 ###### Data Analysis
 
 | Label | Color | Description |
 |-|-|-|
-| Services | <span style='color:gold'>Yellow</span> | The card pertains to services for data analysis. |
-| Deployment | <span style='color:lightgreen'>Light Green</span> | The card pertains to deployment of data analysis services. |
+| Services | ![#F1D52F](https://placehold.it/45/F1D52F/000000?text=+) | The card pertains to services for data analysis. |
+| Deployment | ![#58E79A](https://placehold.it/45/58E79A/000000?text=+) | The card pertains to deployment of data analysis services. |
 
 ###### Design
 
@@ -88,33 +88,33 @@ This board currently has no labels. If you think it should, suggest some!
 
 | Label | Color | Description |
 |-|-|-|
-| Ready For Dev | <span style='color:green'>Green</span> | The card is ready to be worked on with nothing blocking progress. |
-| Not Ready For Dev | <span style='color:gold'>Yellow</span> | There is currently something blocking progress on the card. |
-| Help Wanted | <span style='color:orange'>Orange</span> | Members of the card need help to make progress. |
-| Overdue | <span style='color:red'>Red</span> | The card has not been completed by the original set due date. |
-| Question | <span style='color:purple'>Purple</span> | Members of the card have a question concerning the requirements. |
-| Enhancement | <span style='color:blue'>Blue</span> | The card contains an enhancement to Ultrasound. |
-| Bug | Black | The card is concerning a bug found on Ultrasound. |
+| Ready For Dev | ![#64bc55](https://placehold.it/45/64bc55/000000?text=+) | The card is ready to be worked on with nothing blocking progress. |
+| Not Ready For Dev | ![#F1D52F](https://placehold.it/45/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
+| Help Wanted | ![#FDAA54](https://placehold.it/45/FDAA54/000000?text=+) | Members of the card need help to make progress. |
+| Overdue | ![#E95B4B](https://placehold.it/45/E95B4B/000000?text=+) | The card has not been completed by the original set due date. |
+| Question | ![#C27ADE](https://placehold.it/45/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
+| Enhancement | ![#117ABD](https://placehold.it/45/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
+| Bug | ![#4D4D4D](https://placehold.it/45/4D4D4D/000000?text=+) | The card is concerning a bug found on Ultrasound. |
 
 ###### Legal
 
 | Label | Color | Description |
 |-|-|-|
-| Approved | <span style='color:green'>Green</span> | The content in the card has been approved. |
-| Waiting For Lawyer Feedback | <span style='color:gold'>Yellow</span> | This card is waiting on lawyer feedback to continue. |
-| In Internal Review | <span style='color:orange'>Orange</span> | This card is currently in internal review. |
-| Meeting Scheduled | <span style='color:purple'>Purple</span> | This card pertains to a meeting being scheduled with the lawyers. |
-| Filed Awaiting Feedback From Feds | <span style='color:blue'>Blue</span> | This card contains something that's been filed internally and is awaiting feedback from the Federal Gov't. |
+| Approved | ![#64bc55](https://placehold.it/45/64bc55/000000?text=+) | The content in the card has been approved. |
+| Waiting For Lawyer Feedback | ![#F1D52F](https://placehold.it/45/F1D52F/000000?text=+) | This card is waiting on lawyer feedback to continue. |
+| In Internal Review | ![#FDAA54](https://placehold.it/45/FDAA54/000000?text=+) | This card is currently in internal review. |
+| Meeting Scheduled | ![#C27ADE](https://placehold.it/45/C27ADE/000000?text=+) | This card pertains to a meeting being scheduled with the lawyers. |
+| Filed Awaiting Feedback From Feds | ![#117ABD](https://placehold.it/45/117ABD/000000?text=+) | This card contains something that's been filed internally and is awaiting feedback from the Federal Gov't. |
 
 ###### Marketing
 
 | Label | Color | Description |
 |-|-|-|
-| On Going | <span style='color:green'>Green</span> | This card is still on going. |
-| Very Promising | <span style='color:gold'>Yellow</span> | This card contains a promising lead. |
-| In Need Of Resources | <span style='color:orange'>Orange</span> | This card is in need or resources in order to continue. |
-| Immediate Action | <span style='color:red'>Red</span> | This card requires immediate action. |
-| Get In Touch | <span style='color:blue'>Blue</span> | This card pertains to getting in touch with an individual/group. |
+| On Going | ![#64bc55](https://placehold.it/45/64bc55/000000?text=+) | This card is still on going. |
+| Very Promising | ![#F1D52F](https://placehold.it/45/F1D52F/000000?text=+) | This card contains a promising lead. |
+| In Need Of Resources | ![#FDAA54](https://placehold.it/45/FDAA54/000000?text=+) | This card is in need or resources in order to continue. |
+| Immediate Action | ![#E95B4B](https://placehold.it/45/E95B4B/000000?text=+) | This card requires immediate action. |
+| Get In Touch | ![#117ABD](https://placehold.it/45/117ABD/000000?text=+) | This card pertains to getting in touch with an individual/group. |
 
 ###### User Testing
 
