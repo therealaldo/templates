@@ -8,7 +8,7 @@ We want to keep these short and sweet, so we are really going to just answer the
 
 * **What did you work on yesterday?**
 * **What will you work on today?**
-* **What issues did you experience yesterday, and are they any issues blocking you from moving forward today?**
+* **What issues did you experience yesterday, and are there any issues blocking you from moving forward today?**
 
 ---
 

@@ -298,7 +298,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 ### Editing a card
 
-When editing a card, be sure to not make any unnecessary edits to the card. The most common edit that will be made to cards will be in the way of adding comments. These comments can include anything from a normal conversation relating to the card to any issues the members are currently experiencing on the card itself. If that's the case, please provide any additional information to supplements the comments added, whether it be screenshots, files, etc.
+When editing a card, be sure to not make any unnecessary edits to the card. The most common edit that will be made to cards will be in the way of adding comments. These comments can include anything from a normal conversation relating to the card to any issues the members are currently experiencing on the card itself. If that's the case, please provide any additional information, whether it be screenshots, files, etc.
 
 ---
 

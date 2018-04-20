@@ -105,7 +105,7 @@ Let us know the types of changes you made in your pull request. The types of cha
 
 #### Bug Fixes
 
-When adding a new big fix change, add the issues your pull request fixes.
+When adding a new bug fix change, add the issues your pull request fixes.
 
 > Fixes: #18451 \
 > Fixes: #18663
