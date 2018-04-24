@@ -96,6 +96,17 @@ This board currently has no labels. If you think it should, suggest some!
 | Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
 | Bug | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card is concerning a bug found on Ultrasound. |
 
+###### Infrastructure
+
+| Label | Color | Description |
+|-|-|-|
+| Ready For Dev | ![#64bc55](https://placehold.it/50/64bc55/000000?text=+) | The card is ready to be worked on with nothing blocking progress. |
+| Not Ready For Dev | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
+| Awaiting Approval | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | The card is awaiting approval in order to be able to move on. |
+| Overdue | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | The card has not been completed by the original set due date. |
+| Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
+| Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
+
 ###### Legal
 
 | Label | Color | Description |
@@ -115,6 +126,18 @@ This board currently has no labels. If you think it should, suggest some!
 | In Need Of Resources | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | This card is in need or resources in order to continue. |
 | Immediate Action | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | This card requires immediate action. |
 | Get In Touch | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | This card pertains to getting in touch with an individual/group. |
+
+###### Services
+
+| Label | Color | Description |
+|-|-|-|
+| Ready For Dev | ![#64bc55](https://placehold.it/50/64bc55/000000?text=+) | The card is ready to be worked on with nothing blocking progress. |
+| Not Ready For Dev | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
+| Help Wanted | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | Members of the card need help to make progress. |
+| Overdue | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | The card has not been completed by the original set due date. |
+| Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
+| Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
+| Bug | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card is concerning a bug found on Ultrasound. |
 
 ###### User Testing
 
@@ -142,47 +165,47 @@ Provide a checklist if appropriate for the card you're creating.
 > * [ ] Seek to new progress
 > * [ ] On done playing track event
 
-##### Due Dates *(Optional)*
+#### Due Dates *(Optional)*
 
 Consult with your team and agree on when to expect the card to be completed. Set the due date at the end of a sprint that falls in line with the roadmap. Sprints are generally 2 weeks long and end on Saturdays.
 
-##### Attachments *(Optional)*
+#### Attachments *(Optional)*
 
 Provide any attachments that are necessary or relevant to the card you're creating on Trello. The types of attachments are as follows:
 
-###### Computer
+##### Computer
 
 An attachment that is saved on your computer that is relevant to the card you're creating.
 
-###### Trello
+##### Trello
 
 An attachment that is a Trello card or board. Generally you will use this when a Trello card/board elsewhere is relevant to the card you're creating.
 
-###### Google Drive
+##### Google Drive
 
 An attachment that is on Google Drive that is relevant to the card you're creating.
 
-###### Dropbox
+##### Dropbox
 
 An attachment that is on Dropbox that is relevant to the card you're creating.
 
-###### Box
+##### Box
 
 An attachment that is on Box that is relevant to the card you're creating.
 
-###### OneDrive
+##### OneDrive
 
 An attachment that is on OneDrive that is relevant to the card you're creating.
 
-###### Link
+##### Link
 
 If you need to attach something that isn't any of the types above, provide a link to the attachment. This can be anything from a link to an article to a video on Youtube that is relevant to the card you're creating.
 
-##### Power-Ups *(Optional)*
+#### Power-Ups *(Optional)*
 
 Use the power ups when appropriate for the card you're creating. The types of power-ups you can use are as follows:
 
-###### Github
+##### Github
 
 | Action | Description |
 |-|-|
@@ -191,14 +214,14 @@ Use the power ups when appropriate for the card you're creating. The types of po
 | Attach Issue | Any Github issues that pertain to the card you're creating. |
 | Attach Pull Request | Any Github PRs that pertain to the card you're creating. |
 
-###### Dropbox
+##### Dropbox
 
 | Action | Description |
 |-|-|
 | Attach a File | Any file that pertains to the card you're creating. |
 | Attach a Folder | A whole folder that pertains to the card you're creating. |
 
-###### Slack
+##### Slack
 
 | Action | Description |
 |-|-|
@@ -266,6 +289,17 @@ When moving a card between lanes, make sure it has completed the requirements of
 | QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
+##### Infrastructure
+
+| Lane | Purpose |
+|-|-|
+| Backlog | This is where cards start on this board. |
+| Sprint Work | Cards that have been selected for the current sprint. |
+| In Progress | Any cards that the members are currently in progress on. |
+| Done - Dev | Cards that are finished with development. |
+| Staged | Cards that have been staged and tested. |
+| Production | Cards that have been successfully implemented and are in production. |
+
 ##### Legal
 
 | Lane | Purpose |
@@ -283,6 +317,16 @@ When moving a card between lanes, make sure it has completed the requirements of
 | Leads | Any cards that have solid leads into how to achieve the goals of the card. |
 | To Do | Cards that have been selected that need to get done in the current sprint. |
 | In Progress | Any cards that the members are currently in progress on. |
+| Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
+
+##### Services
+
+| Lane | Purpose |
+|-|-|
+| Backlog | This is where cards start on this board. |
+| Sprint Work | Cards that have been selected for the current sprint. |
+| In Progress | Any cards that the members are currently in progress on. |
+| QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
 ##### User Testing
