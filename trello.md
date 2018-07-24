@@ -32,14 +32,24 @@ Give a title that gives a general idea as to what the card pertains to, i.e. a n
 
 #### Description *(Required)*
 
-Provide a detailed description with the necessary information needed to work on the card. The more descriptive you are here, the better!
+Provide a detailed description with the necessary information needed to work on the card. The more descriptive you are here, the better! The scrum value should be the first thing as well in the format of `(MM/DD) Scrum Value = value`. Apply the value based on the Fibonacci sequence, comparing the card to other cards to know where you should classify the task. If the value has to be updated, don't delete the old ones listed, and instead, write the new value above the older ones, crossing out the older assessments.
 
+> (12/21) **Scrum Value = 13**
+>
 > Designing and filing for a trademark that will establish 'marks' to distinguish our brand.
 
+> (3/27) **Scrum Value = 5**
+>
+> ~~(3/25) **Scrum Value = 8**~~
+>
 > Implement a nested FlatList in the footer component for the live session's VirtualizedList containing the first 3 tracks in the more to play of the session.
 
+> (4/6) **Scrum Value = 5**
+>
 > Looking to make standing connections to sell merchandise.
 
+> (7/23) **Scrum Value = 3**
+>
 > Add the functionality to save music to the current user's Spotify library.
 
 #### Members *(Optional)*
@@ -56,13 +66,10 @@ Select the necessary labels that apply to the card you're creating. These may va
 
 | Label | Color | Description |
 |-|-|-|
-| Ready For Dev | ![#64bc55](https://placehold.it/50/64bc55/000000?text=+) | The card is ready to be worked on with nothing blocking progress. |
-| Not Ready For Dev | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
+| Blocked | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
 | Help Wanted | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | Members of the card need help to make progress. |
-| Overdue | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | This card has not been completed by the original set due date. |
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
 | Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | This card is an enhancement to Ultrasound. |
-| Epic | ![#20C2DE](https://placehold.it/50/20C2DE/000000?text=+) | This is an overarching card containing smaller cards that are related to each other within it. |
 | Won't Do | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | Members of the card won't work on this. |
 
 ###### Business Dev
@@ -88,10 +95,8 @@ This board currently has no labels. If you think it should, suggest some!
 
 | Label | Color | Description |
 |-|-|-|
-| Ready For Dev | ![#64bc55](https://placehold.it/50/64bc55/000000?text=+) | The card is ready to be worked on with nothing blocking progress. |
 | Not Ready For Dev | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
 | Help Wanted | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | Members of the card need help to make progress. |
-| Overdue | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | The card has not been completed by the original set due date. |
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
 | Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
 | Bug | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card is concerning a bug found on Ultrasound. |
@@ -145,29 +150,29 @@ This board currently has no labels. If you think it should, suggest some!
 
 ##### Checklists
 
-Provide a checklist if appropriate for the card you're creating.
+Provide a checklist if appropriate for the card you're creating. If the checklist is apart of a story, be sure to put the scrum value of the task after the title.
 
 > **Advisors**
 >
-> * [x] Get in contact with John Doe
-> * [x] Schedule meeting
-> * [ ] Report outcome of call
+> * [x] Get in contact with John Doe - **(7/2) Scrum Value = 1**
+> * [x] Schedule meeting - **(7/2) Scrum Value = 1**
+> * [ ] Report outcome of call - **(7/2) Scrum Value = 1**
 
 > **Components**
 >
-> * [x] Meeting with John to lay the foundation
-> * [ ] Option agreements
-> * [ ] Finalize cap table
+> * [x] Meeting with John to lay the foundation - **(6/23) Scrum Value = 3**
+> * [ ] Option agreements - **(6/23) Scrum Value = 3**
+> * [ ] Finalize cap table - **(6/25) Scrum Value = 5**
 
 > **Capabilities**
 >
-> * [ ] Update current track progress
-> * [ ] Seek to new progress
-> * [ ] On done playing track event
+> * [ ] Update current track progress - **(10/21) Scrum Value = 3**
+> * [ ] Seek to new progress - **(10/21) Scrum Value = 5**
+> * [ ] On done playing track event - **(10/23) Scrum Value = 3**
 
 #### Due Dates *(Optional)*
 
-Consult with your team and agree on when to expect the card to be completed. Set the due date at the end of a sprint that falls in line with the roadmap. Sprints are generally 2 weeks long and end on Saturdays.
+Due dates will be assigned at the Trello grooming sessions every other Monday. The due dates are calculated using the velocity from the previous sprint. Sprints are generally 2 weeks long, starting on a Monday and ending on a Saturday.
 
 #### Attachments *(Optional)*
 
@@ -236,7 +241,7 @@ Use the power ups when appropriate for the card you're creating. The types of po
 
 ### Moving a card
 
-When moving a card between lanes, make sure it has completed the requirements of the lane you're moving the card to. The lanes and their significance varies between the boards.
+When moving a card between lanes, make sure it has completed the requirements of the lane you're moving the card to. The lanes and their significance varies between the boards. Epics and stories can only be moved from their respective lanes to *Done* when all of the subtasks have been completed.
 
 #### Boards
 
@@ -244,7 +249,9 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 | Lane | Purpose |
 |-|-|
-| Backlog | This is where cards start on this board. Cards will generally be features that will be implemented into Ultrasound. |
+| Epics | Contains multiple stories which will take more than one sprint to complete. |
+| Stories | Contains multiple tasks relating to one overarching task or functionality. |
+| Backlog | This is where cards start on this board. Cards will generally be finite tasks to accomplish relating to a feature. |
 | Selected for Development | These are the cards that have been selected for development for the current sprint. Do not put any cards here that haven't been selected for development. |
 | In Progress | Any cards that the members are currently in progress on. |
 | QA | Cards that are going through the QA process that is appropriate. |
@@ -260,7 +267,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 | QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
-##### Data Analysis
+##### Data Analysis *(Deprecated)*
 
 | Lane | Purpose |
 |-|-|
@@ -273,6 +280,8 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 | Lane | Purpose |
 |-|-|
+| Epics | Contains multiple stories which will take more than one sprint to complete. |
+| Stories | Contains multiple tasks relating to one overarching task or functionality. |
 | Backlog | This is where cards start on this board. |
 | To Do | Cards that have been selected that need to get done in the current sprint. |
 | In Progress | Any cards that the members are currently in progress on. |
@@ -283,6 +292,8 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 | Lane | Purpose |
 |-|-|
+| Epics | Contains multiple stories which will take more than one sprint to complete. |
+| Stories | Contains multiple tasks relating to one overarching task or functionality. |
 | Backlog | This is where cards start on this board. |
 | Selected for Development | Cards that been selected for development during the current sprint. |
 | In Progress | Any cards that the members are currently in progress on. |
@@ -295,10 +306,11 @@ When moving a card between lanes, make sure it has completed the requirements of
 |-|-|
 | Backlog | This is where cards start on this board. |
 | Sprint Work | Cards that have been selected for the current sprint. |
-| In Progress | Any cards that the members are currently in progress on. |
+| In Progress Dev | Any cards that the members are currently in progress on. |
+| Dev | Any cards that are currently awaiting to be pushed to staging from dev. |
+| In Progress Staging | Cards that are currently being tested in staging. |
+| In Progress Production | Cards that are currently being tested in production. |
 | Done - Dev | Cards that are finished with development. |
-| Staged | Cards that have been staged and tested. |
-| Production | Cards that have been successfully implemented and are in production. |
 
 ##### Legal
 
