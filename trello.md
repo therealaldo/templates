@@ -32,7 +32,7 @@ Give a title that gives a general idea as to what the card pertains to, i.e. a n
 
 #### Description *(Required)*
 
-Provide a detailed description with the necessary information needed to work on the card. The more descriptive you are here, the better! The scrum value should be the first thing as well in the format of `(MM/DD) Scrum Value = value`. Apply the value based on the Fibonacci sequence, comparing the card to other cards to know where you should classify the task. If the value has to be updated, don't delete the old ones listed, and instead, write the new value above the older ones, crossing out the older assessments.
+Provide a detailed description with the necessary information needed to work on the card. The more descriptive you are here, the better! The scrum value should be the first thing as well in the format of `(MM/DD) Scrum Value = value` if the card is a task. If the card is an epic or story, the scrum value is not necessary Apply the value based on the Fibonacci sequence, comparing the card to other cards to know where you should classify the task. If the value has to be updated, don't delete the old ones listed, and instead, write the new value above the older ones, crossing out the older assessments.
 
 > (12/21) **Scrum Value = 13**
 >
