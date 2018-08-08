@@ -257,6 +257,8 @@ When moving a card between lanes, make sure it has completed the requirements of
 | QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purpose, done with all of the requirements completed. |
 
+> Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
+
 ##### Business Dev
 
 | Lane | Purpose |
@@ -299,6 +301,8 @@ When moving a card between lanes, make sure it has completed the requirements of
 | In Progress | Any cards that the members are currently in progress on. |
 | QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
+
+> Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
 ##### Infrastructure
 
