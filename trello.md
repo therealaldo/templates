@@ -100,6 +100,7 @@ This board currently has no labels. If you think it should, suggest some!
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
 | Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
 | Bug | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card is concerning a bug found on Ultrasound. |
+| Research | ![#20C2DE](https://placehold.it/50/20C2DE/000000?text=+) | The card is strictly for research purposes and nothing more. |
 
 ###### Infrastructure
 
