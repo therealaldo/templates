@@ -95,7 +95,7 @@ This board currently has no labels. If you think it should, suggest some!
 
 | Label | Color | Description |
 |-|-|-|
-| Not Ready For Dev | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
+| Blocked | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
 | Help Wanted | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | Members of the card need help to make progress. |
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
 | Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
