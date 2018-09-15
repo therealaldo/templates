@@ -69,7 +69,6 @@ Select the necessary labels that apply to the card you're creating. These may va
 | Blocked | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
 | Help Wanted | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | Members of the card need help to make progress. |
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
-| Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | This card is an enhancement to Ultrasound. |
 | Won't Do | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | Members of the card won't work on this. |
 
 ###### Business Dev
