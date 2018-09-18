@@ -250,9 +250,9 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 | Lane | Purpose |
 |-|-|
+| Backlog | This is where cards start on this board. Cards will generally be finite tasks to accomplish relating to a feature. |
 | Epics | Contains multiple stories which will take more than one sprint to complete. |
 | Stories | Contains multiple tasks relating to one overarching task or functionality. |
-| Backlog | This is where cards start on this board. Cards will generally be finite tasks to accomplish relating to a feature. |
 | Selected for Development | These are the cards that have been selected for development for the current sprint. Do not put any cards here that haven't been selected for development. |
 | In Progress | Any cards that the members are currently in progress on. |
 | QA | Cards that are going through the QA process that is appropriate. |
@@ -295,9 +295,9 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 | Lane | Purpose |
 |-|-|
+| Backlog | This is where cards start on this board. |
 | Epics | Contains multiple stories which will take more than one sprint to complete. |
 | Stories | Contains multiple tasks relating to one overarching task or functionality. |
-| Backlog | This is where cards start on this board. |
 | Selected for Development | Cards that been selected for development during the current sprint. |
 | In Progress | Any cards that the members are currently in progress on. |
 | QA | Cards that are going through the QA process that is appropriate. |
@@ -365,7 +365,7 @@ When editing a card, be sure to not make any unnecessary edits to the card. The 
 
 ### Archiving a card
 
-When archiving a card in any of the boards, make sure the card was completed and has had no activity for at least a month. Make sure not to actually delete the card and to only archive it.
+The time to archive cards are when we've recorded what was completed and what wasn't completed at the Trello grooming. This allows for all cards that are currently on the boards outside of *Backlog* to be associated with the current sprint. Make sure not to actually delete the card and to only archive it.
 
 ---
 
