@@ -94,6 +94,7 @@ This board currently has no labels. If you think it should, suggest some!
 
 | Label | Color | Description |
 |-|-|-|
+| Installation | ![#61BC4F](https://placehold.it/50/61BC4F/000000?text=+) | The card focuses on installing, uninstalling, or updating a package in the project. |
 | Blocked | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
 | Help Wanted | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | Members of the card need help to make progress. |
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
