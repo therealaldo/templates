@@ -71,6 +71,20 @@ Select the necessary labels that apply to the card you're creating. These may va
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
 | Won't Do | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | Members of the card won't work on this. |
 
+###### Backend
+
+| Label | Color | Description|
+|-|-|-|
+| Feature | ![#61BC4F](https://placehold.it/50/61BC4F/000000?text=+) | The card pertains to a specific feature. |
+| Deployment | ![#F2D600](https://placehold.it/50/F2D600/000000?text=+) | The card pertains to a deployment. |
+| Bug Fix | ![#FF9F1A](https://placehold.it/50/FF9F1A/000000?text=+) | The card contains a bug that needs to be fixed. |
+| Security | ![#EB5A46](https://placehold.it/50/EB5A46/000000?text=+) | The card pertains to something involving security. |
+| Operations | ![#C377DF](https://placehold.it/50/C377DF/000000?text=+) | The card pertains to something involving operations. |
+| App Development | ![#007ABE](https://placehold.it/50/007ABE/000000?text=+) | The card pertains to something involving app development. |
+| Refactoring | ![#51E798](https://placehold.it/50/51E798/000000?text=+) | Refactoring has to be done with work inside of the card. |
+| Kubernetes | ![#FF78CB](https://placehold.it/50/FF78CB/000000?text=+) | The work inside of the card touches Kubernetes. |
+| Card Paused | ![#355263](https://placehold.it/50/355263/000000?text=+) | Progress on the card has been paused. |
+
 ###### Business Dev
 
 | Label | Color | Description |
@@ -79,7 +93,7 @@ Select the necessary labels that apply to the card you're creating. These may va
 | Open | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | The card is open and still in progress. |
 | Immediate | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | The card requires immediate attention. |
 
-###### Data Analysis
+###### Data Analysis *(Deprecated)*
 
 | Label | Color | Description |
 |-|-|-|
@@ -96,23 +110,14 @@ This board currently has no labels. If you think it should, suggest some!
 |-|-|-|
 | Installation | ![#61BC4F](https://placehold.it/50/61BC4F/000000?text=+) | The card focuses on installing, uninstalling, or updating a package in the project. |
 | Blocked | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
-| Help Wanted | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | Members of the card need help to make progress. |
+| Deployment | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | The card pertains to a deployment. |
+| Security | ![#EB5A46](https://placehold.it/50/EB5A46/000000?text=+) | The card contains something involving security. |
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
 | Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
 | Bug | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card is concerning a bug found on Ultrasound. |
 | Research | ![#20C2DE](https://placehold.it/50/20C2DE/000000?text=+) | The card is strictly for research purposes and nothing more. |
+| Testing | ![#51E798](https://placehold.it/50/51E798/000000?text=+) | The card contains testing requirements. |
 | Documentation | ![#FD7BCA](https://placehold.it/50/FD7BCA/000000?text=+) | The card asks for creation of new docs or updates to existing docs. |
-
-###### Infrastructure
-
-| Label | Color | Description |
-|-|-|-|
-| Ready For Dev | ![#64bc55](https://placehold.it/50/64bc55/000000?text=+) | The card is ready to be worked on with nothing blocking progress. |
-| Not Ready For Dev | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
-| Awaiting Approval | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | The card is awaiting approval in order to be able to move on. |
-| Overdue | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | The card has not been completed by the original set due date. |
-| Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
-| Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
 
 ###### Legal
 
@@ -133,18 +138,6 @@ This board currently has no labels. If you think it should, suggest some!
 | In Need Of Resources | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | This card is in need or resources in order to continue. |
 | Immediate Action | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | This card requires immediate action. |
 | Get In Touch | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | This card pertains to getting in touch with an individual/group. |
-
-###### Services
-
-| Label | Color | Description |
-|-|-|-|
-| Ready For Dev | ![#64bc55](https://placehold.it/50/64bc55/000000?text=+) | The card is ready to be worked on with nothing blocking progress. |
-| Not Ready For Dev | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
-| Help Wanted | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | Members of the card need help to make progress. |
-| Overdue | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | The card has not been completed by the original set due date. |
-| Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
-| Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
-| Bug | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card is concerning a bug found on Ultrasound. |
 
 ###### User Testing
 
@@ -261,6 +254,18 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 > Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
+##### Backend
+
+| Lane | Purpose |
+|-|-|
+| Backlog | This is where cards start on this board. |
+| Sprint Work | Cards that have been selected for the current sprint. |
+| In Progress | Any cards that the members are currently in progress on. |
+| Needs Quick Test or Docs | Cards that are going through the QA process and need testing/docs completed. |
+| Sprint Finish | Cards that are, for all intents and purposes, done with all of the requirements completed. |
+
+> The *Sprint Finish* lane will be created anew for each passing sprint, keeping the old lanes after the sprints have ended. This is the only lane that will have this behavior.
+
 ##### Business Dev
 
 | Lane | Purpose |
@@ -306,18 +311,6 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 > Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
-##### Infrastructure
-
-| Lane | Purpose |
-|-|-|
-| Backlog | This is where cards start on this board. |
-| Sprint Work | Cards that have been selected for the current sprint. |
-| In Progress Dev | Any cards that the members are currently in progress on. |
-| Dev | Any cards that are currently awaiting to be pushed to staging from dev. |
-| In Progress Staging | Cards that are currently being tested in staging. |
-| In Progress Production | Cards that are currently being tested in production. |
-| Done - Dev | Cards that are finished with development. |
-
 ##### Legal
 
 | Lane | Purpose |
@@ -335,16 +328,6 @@ When moving a card between lanes, make sure it has completed the requirements of
 | Leads | Any cards that have solid leads into how to achieve the goals of the card. |
 | To Do | Cards that have been selected that need to get done in the current sprint. |
 | In Progress | Any cards that the members are currently in progress on. |
-| Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
-
-##### Services
-
-| Lane | Purpose |
-|-|-|
-| Backlog | This is where cards start on this board. |
-| Sprint Work | Cards that have been selected for the current sprint. |
-| In Progress | Any cards that the members are currently in progress on. |
-| QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
 ##### User Testing
