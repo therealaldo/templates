@@ -32,23 +32,23 @@ Give a title that gives a general idea as to what the card pertains to, i.e. a n
 
 #### Description *(Required)*
 
-Provide a detailed description with the necessary information needed to work on the card. The more descriptive you are here, the better! The scrum value should be the first thing as well in the format of `(MM/DD) Scrum Value = value` if the card is a task. If the card is an epic or story, the scrum value is not necessary Apply the value based on the Fibonacci sequence, comparing the card to other cards to know where you should classify the task. If the value has to be updated, don't delete the old ones listed, and instead, write the new value above the older ones, crossing out the older assessments.
+Provide a detailed description with the necessary information needed to work on the card. The more descriptive you are here, the better! The scrum value should be the first thing as well in the format of `(MM/DD/YY) Scrum Value = value` if the card is a task. If the card is an epic or story, the scrum value is not necessary Apply the value based on the Fibonacci sequence, comparing the card to other cards to know where you should classify the task. If the value has to be updated, don't delete the old ones listed, and instead, write the new value above the older ones, crossing out the older assessments.
 
-> (12/21) **Scrum Value = 13**
+> (12/21/18) **Scrum Value = 13**
 >
 > Designing and filing for a trademark that will establish 'marks' to distinguish our brand.
 
-> (3/27) **Scrum Value = 5**
+> (3/27/19) **Scrum Value = 5**
 >
-> ~~(3/25) **Scrum Value = 8**~~
+> ~~(3/25/19) **Scrum Value = 8**~~
 >
 > Implement a nested FlatList in the footer component for the live session's VirtualizedList containing the first 3 tracks in the more to play of the session.
 
-> (4/6) **Scrum Value = 5**
+> (4/6/19) **Scrum Value = 5**
 >
 > Looking to make standing connections to sell merchandise.
 
-> (7/23) **Scrum Value = 3**
+> (7/23/18) **Scrum Value = 3**
 >
 > Add the functionality to save music to the current user's Spotify library.
 
@@ -71,29 +71,30 @@ Select the necessary labels that apply to the card you're creating. These may va
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
 | Won't Do | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | Members of the card won't work on this. |
 
+###### App Roadmap
+
+This board currently has no labels. If you think it should, suggest some!
+
 ###### Backend
 
-| Label | Color | Description|
+| Label | Color | Description |
 |-|-|-|
-| Feature | ![#61BC4F](https://placehold.it/50/61BC4F/000000?text=+) | The card pertains to a specific feature. |
-| Deployment | ![#F2D600](https://placehold.it/50/F2D600/000000?text=+) | The card pertains to a deployment. |
-| Bug Fix | ![#FF9F1A](https://placehold.it/50/FF9F1A/000000?text=+) | The card contains a bug that needs to be fixed. |
-| Security | ![#EB5A46](https://placehold.it/50/EB5A46/000000?text=+) | The card pertains to something involving security. |
-| Operations | ![#C377DF](https://placehold.it/50/C377DF/000000?text=+) | The card pertains to something involving operations. |
-| App Development | ![#007ABE](https://placehold.it/50/007ABE/000000?text=+) | The card pertains to something involving app development. |
-| Refactoring | ![#51E798](https://placehold.it/50/51E798/000000?text=+) | Refactoring has to be done with work inside of the card. |
-| Kubernetes | ![#FF78CB](https://placehold.it/50/FF78CB/000000?text=+) | The work inside of the card touches Kubernetes. |
-| Card Paused | ![#355263](https://placehold.it/50/355263/000000?text=+) | Progress on the card has been paused. |
+
+###### Backend Roadmap
+
+This board currently has no labels. If you think it should, suggest some!
 
 ###### Business Dev
 
 | Label | Color | Description |
 |-|-|-|
 | Closed | ![#64bc55](https://placehold.it/50/64bc55/000000?text=+) | The goal of the card has been completed. |
+| Feedback | ![#F2D600](https://placehold.it/50/F2D600/000000?text=+) | The card requires feedback. |
 | Open | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | The card is open and still in progress. |
 | Immediate | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | The card requires immediate attention. |
+| Epic Card | ![#0279C0](https://placehold.it/50/0279C0/000000?text=+) | The card requires multiple, related cards to be completed. |
 
-###### Data Analysis *(Deprecated)*
+###### Data Analysis (Deprecated)
 
 | Label | Color | Description |
 |-|-|-|
@@ -102,7 +103,9 @@ Select the necessary labels that apply to the card you're creating. These may va
 
 ###### Design
 
-This board currently has no labels. If you think it should, suggest some!
+| Label | Color | Description |
+|-|-|-|
+| Discrepancies | ![#EC5A47](https://placehold.it/50/EC5A47/000000?text=+) | The card contains some discrepancies that need to be fixed. |
 
 ###### Dev Workboard
 
@@ -124,10 +127,10 @@ This board currently has no labels. If you think it should, suggest some!
 | Label | Color | Description |
 |-|-|-|
 | Approved | ![#64bc55](https://placehold.it/50/64bc55/000000?text=+) | The content in the card has been approved. |
-| Waiting For Lawyer Feedback | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | This card is waiting on lawyer feedback to continue. |
-| In Internal Review | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | This card is currently in internal review. |
-| Meeting Scheduled | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | This card pertains to a meeting being scheduled with the lawyers. |
-| Filed Awaiting Feedback From Feds | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | This card contains something that's been filed internally and is awaiting feedback from the Federal Gov't. |
+| Lawyer Collaboration | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | The card requires collaboration from the lawyers. |
+| Internal Review | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | This card is currently in internal review. |
+| Immediate Action | ![#EC5A47](https://placehold.it/50/EC5A47/000000?text=+) | The card requires immediate action. |
+| Pending 3rd Party Feedback | ![#0279C0](https://placehold.it/50/0279C0/000000?text=+) | The card is pending feedback from a 3rd party. |
 
 ###### Marketing
 
@@ -139,7 +142,7 @@ This board currently has no labels. If you think it should, suggest some!
 | Immediate Action | ![#E95B4B](https://placehold.it/50/E95B4B/000000?text=+) | This card requires immediate action. |
 | Get In Touch | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | This card pertains to getting in touch with an individual/group. |
 
-###### User Testing
+###### Testing
 
 This board currently has no labels. If you think it should, suggest some!
 
@@ -248,33 +251,73 @@ When moving a card between lanes, make sure it has completed the requirements of
 | Epics | Contains multiple stories which will take more than one sprint to complete. |
 | Stories | Contains multiple tasks relating to one overarching task or functionality. |
 | Selected for Development | These are the cards that have been selected for development for the current sprint. Do not put any cards here that haven't been selected for development. |
-| In Progress | Any cards that the members are currently in progress on. |
+| In Progress | Any cards the members of the board are currently working on. |
 | QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purpose, done with all of the requirements completed. |
 
 > Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
+##### App Roadmap
+
+| Lane | Purpose |
+|-|-|
+| Onboarding | All of the features relating to onboarding functionality. |
+| Users | All of the features relating to user functionality. |
+| Tracks | All of the features relating to track functionality. |
+| Playlists | All of the features relating to playlist functionality. |
+| Albums | All of the features relating to album functionality. |
+| Artists | All of the features relating to artist functionality. |
+| Explore | All of the features relating to explore functionality. |
+| Sessions | All of the features relating to session functionality. |
+| Profile | All of the features relating to profile functionality. |
+| Search | All of the features relating to search functionality. |
+| Conversations | All of the features relating to conversation functionality. |
+| Notifications | All of the features relating to notification functionality. |
+| Groups | All of the features relating to group functionality. |
+
+> The cards in this board don't move lanes, but rather are keeping track of work remaining for each
+> of the respective feature types.
+
 ##### Backend
 
 | Lane | Purpose |
 |-|-|
-| Backlog | This is where cards start on this board. |
-| Sprint Work | Cards that have been selected for the current sprint. |
-| In Progress | Any cards that the members are currently in progress on. |
-| Needs Quick Test or Docs | Cards that are going through the QA process and need testing/docs completed. |
+| Backlog | This is where cards start on this board. Cards will generally be finite tasks to accomplish relating to a feature. |
+| Sprint Work | These are the cards that have been selected for the current sprint. |
+| In Progress | Any cards the members of the board are currently working on. |
+| Needs Quick Test or Docs | Any cards that need testing done or documentation made. |
 | Sprint Finish | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
-> The *Sprint Finish* lane will be created anew for each passing sprint, keeping the old lanes after the sprints have ended. This is the only lane that will have this behavior.
+> A _Sprint Finish_ lane is made for each of the sprints as to better keep track of what work was
+> completed during which sprint.
+
+##### Backend Roadmap
+
+| Lane | Purpose |
+|-|-|
+| Auth Service (AS) | All of the features relating to the authentication service. |
+| Events | All of the features relating to events functionality. |
+| GKE | All of the features relating to the GKE functionality. |
+| Spotify Track Collector | All of the features relating to the track collector. |
+| Enterprise Application | All of the features relating to the Enterprise product. |
+| Recommendations | All of the features relating to the recommendation functionality. |
+| Payments | All of the features relating to the payment functionality. |
+
+> The cards in this board don't move lanes, but rather are keeping track of work remaining for each
+> of the respective feature types.
 
 ##### Business Dev
 
 | Lane | Purpose |
 |-|-|
 | Backlog | This is where cards start on this board. |
-| To Do | Cards that have been selected that need to get done. |
-| In Progress | Any cards that the members are currently in progress on. |
+| Epics | Contains multiple stories which will take more than one sprint to complete. |
+| Stories | Contains multiple tasks relating to one overarching task or functionality. |
+| In Progress | Any cards the members of the board are currently working on. |
 | QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
+
+> Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
 ##### Data Analysis *(Deprecated)*
 
@@ -282,20 +325,21 @@ When moving a card between lanes, make sure it has completed the requirements of
 |-|-|
 | Backlog | This is where cards start on this board. |
 | Selected Work | Cards that have been selected for the current sprint. |
-| In Progress | Any cards that the members are currently in progress on. |
+| In Progress | Any cards the members of the board are currently working on. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
 ##### Design
 
 | Lane | Purpose |
 |-|-|
+| Backlog | This is where cards start on this board. |
 | Epics | Contains multiple stories which will take more than one sprint to complete. |
 | Stories | Contains multiple tasks relating to one overarching task or functionality. |
-| Backlog | This is where cards start on this board. |
-| To Do | Cards that have been selected that need to get done in the current sprint. |
-| In Progress | Any cards that the members are currently in progress on. |
+| In Progress | Any cards the members of the board are currently working on. |
 | QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
+
+> Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
 ##### Dev Workboard
 
@@ -305,7 +349,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 | Epics | Contains multiple stories which will take more than one sprint to complete. |
 | Stories | Contains multiple tasks relating to one overarching task or functionality. |
 | Selected for Development | Cards that been selected for development during the current sprint. |
-| In Progress | Any cards that the members are currently in progress on. |
+| In Progress | Any cards the members of the board are currently working on. |
 | QA | Cards that are going through the QA process that is appropriate. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
@@ -317,7 +361,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 |-|-|
 | Issues | This is where cards start on this board. |
 | To Do | Cards that have been selected that need to get done in the current sprint. |
-| In Progress | Any cards that the members are currently in progress on. |
+| In Progress | Any cards the members of the board are currently working on. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
 ##### Marketing
@@ -327,16 +371,16 @@ When moving a card between lanes, make sure it has completed the requirements of
 | Ideas | This is where cards start on this board. Generally marketing ideas that need to be talked through and researched more to see how viable it is. |
 | Leads | Any cards that have solid leads into how to achieve the goals of the card. |
 | To Do | Cards that have been selected that need to get done in the current sprint. |
-| In Progress | Any cards that the members are currently in progress on. |
+| In Progress | Any cards the members of the board are currently working on. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
-##### User Testing
+##### Testing
 
 | Lane | Purpose |
 |-|-|
 | Backlog | This is where cards start on this board. |
 | To Do | Cards that have been selected that need to get done in the current sprint. |
-| In Progress | Any cards that the members are currently in progress on. |
+| In Progress | Any cards the members of the board are currently working on. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
 ---
