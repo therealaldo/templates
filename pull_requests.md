@@ -46,7 +46,7 @@ Let us know what your motivation and context are for opening your pull request.
 
 ---
 
-### How Has This Been Tested?
+### How Has This Been Tested
 
 Let us know how your pull request has been tested. If tests need to be written for your pull request, a great suggestion would be to write your tests yourself for a better chance of the request being accepted.
 

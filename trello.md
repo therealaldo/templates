@@ -21,13 +21,13 @@ Below is the template for creating and managing cards on Trello. The template co
 Give a title that gives a general idea as to what the card pertains to, i.e. a new feature, a problem, a presentation, etc.
 
 > Outreach
-
+>
 > Live Session Track Slider
-
+>
 > Shirt Designs
-
+>
 > Shut Down Rancher Process
-
+>
 > Equity Incentive Plan
 
 #### Description *(Required)*
@@ -35,21 +35,16 @@ Give a title that gives a general idea as to what the card pertains to, i.e. a n
 Provide a detailed description with the necessary information needed to work on the card. The more descriptive you are here, the better! The scrum value should be the first thing as well in the format of `(MM/DD/YY) Scrum Value = value` if the card is a task. If the card is an epic or story, the scrum value is not necessary Apply the value based on the Fibonacci sequence, comparing the card to other cards to know where you should classify the task. If the value has to be updated, don't delete the old ones listed, and instead, write the new value above the older ones, crossing out the older assessments.
 
 > (12/21/18) **Scrum Value = 13**
->
 > Designing and filing for a trademark that will establish 'marks' to distinguish our brand.
-
+>
 > (3/27/19) **Scrum Value = 5**
->
 > ~~(3/25/19) **Scrum Value = 8**~~
->
 > Implement a nested FlatList in the footer component for the live session's VirtualizedList containing the first 3 tracks in the more to play of the session.
-
+>
 > (4/6/19) **Scrum Value = 5**
->
 > Looking to make standing connections to sell merchandise.
-
-> (7/23/18) **Scrum Value = 3**
 >
+> (7/23/18) **Scrum Value = 3**
 > Add the functionality to save music to the current user's Spotify library.
 
 #### Members *(Optional)*
@@ -155,13 +150,13 @@ Provide a checklist if appropriate for the card you're creating. If the checklis
 > * [x] Get in contact with John Doe - **(7/2) Scrum Value = 1**
 > * [x] Schedule meeting - **(7/2) Scrum Value = 1**
 > * [ ] Report outcome of call - **(7/2) Scrum Value = 1**
-
+>
 > **Components**
 >
 > * [x] Meeting with John to lay the foundation - **(6/23) Scrum Value = 3**
 > * [ ] Option agreements - **(6/23) Scrum Value = 3**
 > * [ ] Finalize cap table - **(6/25) Scrum Value = 5**
-
+>
 > **Capabilities**
 >
 > * [ ] Update current track progress - **(10/21) Scrum Value = 3**
