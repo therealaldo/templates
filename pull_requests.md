@@ -109,8 +109,8 @@ Let us know the types of changes you made in your pull request. The types of cha
 
 When adding a new bug fix change, add the issues your pull request fixes.
 
-> * #18451 ([123456](https://github.com/therealaldo/templates/blob/master/pull_requests.md) by @username)
-> * #18663 ([123456](https://github.com/therealaldo/templates/blob/master/pull_requests.md) by @username)
+> * #18451 ([123456](https://github.com/therealaldo/templates/blob/master/pull_requests.md#bug-fixes) by @username)
+> * #18663 ([123456](https://github.com/therealaldo/templates/blob/master/pull_requests.md#bug-fixes) by @username)
 
 #### Breaking Changes
 
