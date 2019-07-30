@@ -55,7 +55,7 @@ Select all of the team members who need to be apart of the card.
 
 Select the necessary labels that apply to the card you're creating. These may vary between the different boards on Trello.
 
-##### Boards
+##### Board Labels
 
 ###### App Development
 
@@ -109,10 +109,10 @@ This board currently has no labels. If you think it should, suggest some!
 | Installation | ![#61BC4F](https://placehold.it/50/61BC4F/000000?text=+) | The card focuses on installing, uninstalling, or updating a package in the project. |
 | Blocked | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
 | Deployment | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | The card pertains to a deployment. |
-| Security | ![#EB5A46](https://placehold.it/50/EB5A46/000000?text=+) | The card contains something involving security. |
+| Security | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card contains something involving security. |
 | Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
 | Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
-| Bug | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card is concerning a bug found on Ultrasound. |
+| Bug | ![#EB5A46](https://placehold.it/50/EB5A46/000000?text=+) | The card is concerning a bug found on Ultrasound. |
 | Research | ![#20C2DE](https://placehold.it/50/20C2DE/000000?text=+) | The card is strictly for research purposes and nothing more. |
 | Testing | ![#51E798](https://placehold.it/50/51E798/000000?text=+) | The card contains testing requirements. |
 | Documentation | ![#FD7BCA](https://placehold.it/50/FD7BCA/000000?text=+) | The card asks for creation of new docs or updates to existing docs. |
@@ -203,7 +203,7 @@ If you need to attach something that isn't any of the types above, provide a lin
 
 Use the power ups when appropriate for the card you're creating. The types of power-ups you can use are as follows:
 
-##### Github
+##### Github Power-Up
 
 | Action | Description |
 |-|-|
@@ -212,14 +212,14 @@ Use the power ups when appropriate for the card you're creating. The types of po
 | Attach Issue | Any Github issues that pertain to the card you're creating. |
 | Attach Pull Request | Any Github PRs that pertain to the card you're creating. |
 
-##### Dropbox
+##### Dropbox Power-Up
 
 | Action | Description |
 |-|-|
 | Attach a File | Any file that pertains to the card you're creating. |
 | Attach a Folder | A whole folder that pertains to the card you're creating. |
 
-##### Slack
+##### Slack Power-Up
 
 | Action | Description |
 |-|-|
@@ -236,9 +236,9 @@ Use the power ups when appropriate for the card you're creating. The types of po
 
 When moving a card between lanes, make sure it has completed the requirements of the lane you're moving the card to. The lanes and their significance varies between the boards. Epics and stories can only be moved from their respective lanes to *Done* when all of the subtasks have been completed.
 
-#### Boards
+#### Board Lanes
 
-##### App Development
+##### App Development Board
 
 | Lane | Purpose |
 |-|-|
@@ -252,7 +252,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 > Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
-##### App Roadmap
+##### App Roadmap Board
 
 | Lane | Purpose |
 |-|-|
@@ -273,7 +273,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 > The cards in this board don't move lanes, but rather are keeping track of work remaining for each
 > of the respective feature types.
 
-##### Backend
+##### Backend Board
 
 | Lane | Purpose |
 |-|-|
@@ -286,7 +286,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 > A _Sprint Finish_ lane is made for each of the sprints as to better keep track of what work was
 > completed during which sprint.
 
-##### Backend Roadmap
+##### Backend Roadmap Board
 
 | Lane | Purpose |
 |-|-|
@@ -301,7 +301,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 > The cards in this board don't move lanes, but rather are keeping track of work remaining for each
 > of the respective feature types.
 
-##### Business Dev
+##### Business Dev Board
 
 | Lane | Purpose |
 |-|-|
@@ -314,7 +314,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 > Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
-##### Data Analysis *(Deprecated)*
+##### Data Analysis Board *(Deprecated)*
 
 | Lane | Purpose |
 |-|-|
@@ -323,7 +323,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 | In Progress | Any cards the members of the board are currently working on. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
-##### Design
+##### Design Board
 
 | Lane | Purpose |
 |-|-|
@@ -336,7 +336,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 > Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
-##### Dev Workboard
+##### Dev Workboard Board
 
 | Lane | Purpose |
 |-|-|
@@ -350,7 +350,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 
 > Epics and story cards are kept in *Backlog* until they are selected for development, where they will then reside in the *Epic* or *Stories* lane until all of the requirements have been met. Epics should be comprised of stories, with stories being comprised of different task cards which move from left to right on the board.
 
-##### Legal
+##### Legal Board
 
 | Lane | Purpose |
 |-|-|
@@ -359,7 +359,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 | In Progress | Any cards the members of the board are currently working on. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
-##### Marketing
+##### Marketing Board
 
 | Lane | Purpose |
 |-|-|
@@ -369,7 +369,7 @@ When moving a card between lanes, make sure it has completed the requirements of
 | In Progress | Any cards the members of the board are currently working on. |
 | Done | Cards that are, for all intents and purposes, done with all of the requirements completed. |
 
-##### Testing
+##### Testing Board
 
 | Lane | Purpose |
 |-|-|
