@@ -100,15 +100,17 @@ Let us know the types of changes you made in your pull request. The types of cha
 * **New feature** (non-breaking change which adds functionality)
 * **Breaking change** (fix or feature that would cause existing functionality to not work as expected)
 
-> * [x] Bug fix
-> * [x] New feature
+> * ~~Documentation~~
+> * Bug fix
+> * New feature
+> * Breaking change
 
 #### Bug Fixes
 
 When adding a new bug fix change, add the issues your pull request fixes.
 
-> Fixes: #18451 \
-> Fixes: #18663
+> * #18451 ([123456](https://github.com/therealaldo/templates/blob/master/pull_requests.md) by @username)
+> * #18663 ([123456](https://github.com/therealaldo/templates/blob/master/pull_requests.md) by @username)
 
 #### Breaking Changes
 
@@ -135,7 +137,7 @@ When adding a new breaking change, add the additional information below to your 
 
 ### Checklist
 
-Fill out the checklist with all of the options selected that apply to your pull request.
+Fill out the checklist with all of the options selected that apply to your pull request. Only include the items that apply to your pull request. Exlude any of the items that do not apply.
 
 > * [x] My code follows the code style of this project
 > * [x] My change requires tests to be written
