@@ -8,7 +8,7 @@ Below is the template for opening issues in this Github repo. These requirements
 
 Let us know what the expected behavior should be pertaining to your issue.
 
-> Ultrasound should open the image picker to select a new cover image for your profile.
+> Brassroots should open the image picker to select a new cover image for your profile.
 
 ### Actual Behavior
 
@@ -31,7 +31,7 @@ List the specific versions you are using when experiencing your issue.
 
 > * React: 16.3.0
 > * React Native: 0.54.0
-> * Ultrasound: 1.0.0
+> * Brassroots: 1.0.0
 
 ### Labels
 

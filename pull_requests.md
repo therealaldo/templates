@@ -1,6 +1,6 @@
 # Pull Requests Template
 
-Below is the template for how to open and submit PRs to Ultrasound. Small pull requests are much easier to review and more likely to get merged. Make sure the PR does only one thing, otherwise please split it.
+Below is the template for how to open and submit PRs to Brassroots. Small pull requests are much easier to review and more likely to get merged. Make sure the PR does only one thing, otherwise please split it.
 
 Please make sure the following is completed when submitting a pull request:
 
@@ -125,7 +125,7 @@ When adding a new breaking change, add the additional information below to your 
 > This affects any user using any version before 1.0.0
 >
 > **How to migrate** \
-> Update to the newest version of Ultrasound
+> Update to the newest version of Brassroots
 >
 > **Why are you making this breaking change?** \
 > Providing the ability to scroll smoother on list headers

@@ -109,10 +109,10 @@ This board currently has no labels. If you think it should, suggest some!
 | Installation | ![#61BC4F](https://placehold.it/50/61BC4F/000000?text=+) | The card focuses on installing, uninstalling, or updating a package in the project. |
 | Blocked | ![#F1D52F](https://placehold.it/50/F1D52F/000000?text=+) | There is currently something blocking progress on the card. |
 | Deployment | ![#FDAA54](https://placehold.it/50/FDAA54/000000?text=+) | The card pertains to a deployment. |
-| Security | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card contains something involving security. |
-| Question | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | Members of the card have a question concerning the requirements. |
-| Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Ultrasound. |
-| Bug | ![#EB5A46](https://placehold.it/50/EB5A46/000000?text=+) | The card is concerning a bug found on Ultrasound. |
+| Security | ![#EB5A46](https://placehold.it/50/EB5A46/000000?text=+) | The card contains something involving security. |
+| Refactoring | ![#C27ADE](https://placehold.it/50/C27ADE/000000?text=+) | The card focuses on refactoring of code. |
+| Enhancement | ![#117ABD](https://placehold.it/50/117ABD/000000?text=+) | The card contains an enhancement to Brassroots. |
+| Bug | ![#4D4D4D](https://placehold.it/50/4D4D4D/000000?text=+) | The card is concerning a bug found on Brassroots. |
 | Research | ![#20C2DE](https://placehold.it/50/20C2DE/000000?text=+) | The card is strictly for research purposes and nothing more. |
 | Testing | ![#51E798](https://placehold.it/50/51E798/000000?text=+) | The card contains testing requirements. |
 | Documentation | ![#FD7BCA](https://placehold.it/50/FD7BCA/000000?text=+) | The card asks for creation of new docs or updates to existing docs. |
@@ -207,7 +207,7 @@ Use the power ups when appropriate for the card you're creating. The types of po
 
 | Action | Description |
 |-|-|
-| Attach Branch | The card pertains to a branch on the Ultrasound repo. |
+| Attach Branch | The card pertains to a branch on the Brassroots repo. |
 | Attach Commit | Any Github commits that pertain to the card you're creating. |
 | Attach Issue | Any Github issues that pertain to the card you're creating. |
 | Attach Pull Request | Any Github PRs that pertain to the card you're creating. |
